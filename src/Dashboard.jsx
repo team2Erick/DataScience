@@ -154,9 +154,9 @@ export default function Dashboard() {
         <div className="chart_1" ref={setRefSubscribers}>1</div>
         <div className="chart_2" ref={setRefMostPlayed}>2</div>
         <div className="chart_3" ref={setRefStreamsPerMonth}>3</div>
-        {/* <div className="chart_4" ref={setRefTotalStreams}>4</div>
+        <div className="chart_4" ref={setRefTotalStreams}>4</div>
         <div className="chart_5" ref={setRefSubscribersPerCountry}>5</div>
-        <div className="chart_6" ref={setRefTopTen}>6</div> */}
+        <div className="chart_6" ref={setRefTopTen}>6</div>
       </div>
     </>
   );
