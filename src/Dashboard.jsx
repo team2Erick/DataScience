@@ -2,33 +2,39 @@ import React, {useCallback} from "react";
 import ChartsEmbedSDK from "@mongodb-js/charts-embed-dom";
 
 const sdk = new ChartsEmbedSDK({
-  baseUrl: "https://charts.mongodb.com/charts-m001-qjjut", 
+  baseUrl: "https://charts.mongodb.com/charts-project-0-exnrk", 
 });
 
 // ___________
 const subscribers = sdk.createChart({
-  chartId: "e6a134fa-bb38-4223-8753-6323bdefe2b9",
+  chartId: "022aaf0e-f2dc-4506-aafc-7a54c1abf211",
   autoRefresh: true,
   showAttribution: false,
 });
 const mostPlayed = sdk.createChart({
-  chartId: "0407475b-9518-4daf-9be7-ebf793937508",
+  chartId: "427fb3ef-1c47-461d-a725-02891469ad1a",
+  autoRefresh: true,
   showAttribution: false,
 });
 const streamsPerMonth = sdk.createChart({
-  chartId: "47f48fb8-6479-4f62-b63a-b5f2fcf65662", 
+  chartId: "0b9f7d77-503e-4576-a312-e62592fd1564", 
+  autoRefresh: true,
   showAttribution: false,
 });
 const totalStreams = sdk.createChart({
-  chartId: "312ed9f1-f00c-4b37-83e5-685313aec14a",
+  chartId: "aaa8aa50-f060-4576-bd84-4c22967bea57",
+  autoRefresh: true,
   showAttribution: false,
 });
 const subscribersPerCountry  = sdk.createChart({
-  chartId: "6872e087-7067-47fd-b1bc-eb317c512983", 
+  chartId: "36edae1e-ab3b-405f-9600-1bd78871f57f", 
+  autoRefresh: true,
   showAttribution: false,
+  
 });
 const topTen  = sdk.createChart({
-  chartId: "920c1781-7fd0-4fc3-8f85-4f7489ef1e81", 
+  chartId: "f9bf0305-b15c-42af-b68d-dd049d9f8b3d", 
+  autoRefresh: true,
   showAttribution: false,
 });
 
